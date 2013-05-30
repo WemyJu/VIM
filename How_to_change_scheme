@@ -4,7 +4,7 @@ vimrc的位置
 
 vim colorscheme的位置
   cd /usr/share/vim/vim73/colors
-  *將想要使用的scheme存入即可，若全縣不夠可加 sudo，給予權限
+  *將想要使用的scheme存入即可，若權限不夠可加 sudo，給予權限
 
 各種scheme的網址
 https://code.google.com/p/vimcolorschemetest/
