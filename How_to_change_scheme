@@ -1,6 +1,7 @@
 vimrc的位置
   cd /usr/share/vim/vimrc
   *vimrc可用vim開啟編輯，若使用權限不允許開啟，可給予super user的權力，即指令 sudo vim vimrc
+  不過基本上只要在根目錄新增 .vimrc即可 (~/.vimrc)
 
 vim colorscheme的位置
   cd /usr/share/vim/vim73/colors
