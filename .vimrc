@@ -22,7 +22,7 @@ syntax enable
 " Color scheme
 set t_Co=256
 let python_highlight_all = 1
-colorscheme wombat256
+colorscheme Zenburn
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
