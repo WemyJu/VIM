@@ -4,6 +4,7 @@
 
 </br>
 </br>
+</br>
 
 ##更改 .vimrc 的方式
 ####[ 法一 ]
@@ -24,14 +25,14 @@
 3. 複製剛剛的 .vimrc 到加目錄下 `mv [下載的檔案資料夾位置]/.vimrc .vimrc`
 
 </br>
-
+</br>
 ##安裝套件方式
 1. 先裝 git
 2. 裝完進到 vi 會自己裝 vundle
 3. 在 vim 中輸入`:BundleInstall`安裝 bundle
 
 </br>
-
+</br>
 ##更改主題
 1. 先到 [vim colors cheme test](https://code.google.com/p/vimcolorschemetest/) 挑選喜歡的主題並下載
 2. 移動到家目錄下並創資料夾 .vim `cd ~ ; mkdir .vim`
