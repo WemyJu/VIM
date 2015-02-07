@@ -2,6 +2,9 @@
 
 [-> 原本的網址 (高哥的 github)](https://github.com/ricky155030/configuration/blob/master/.vimrc)
 
+
+
+
 </br>
 </br>
 </br>
@@ -22,7 +25,8 @@
 ####[ 法二 ]
 1. 下載整個資料夾 VIM-setting （進到資料夾後右下角可以點選下載）
 2. 移動檔案到加目錄下 `cd ~`
-3. 複製剛剛的 .vimrc 到加目錄下 `mv [下載的檔案資料夾位置]/.vimrc .vimrc`
+3. 複製剛剛的 .vimrc 到加目錄下 `mv [下載的檔案資料夾位置]/VIM-setting/.vimrc .vimrc`
+
 
 </br>
 </br>
@@ -30,6 +34,7 @@
 1. 先裝 git
 2. 裝完進到 vi 會自己裝 vundle
 3. 在 vim 中輸入`:BundleInstall`安裝 bundle
+
 
 </br>
 </br>
