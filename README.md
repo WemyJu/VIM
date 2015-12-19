@@ -41,8 +41,7 @@ ps 因為.vimrc 是個隱藏檔，所以在資料夾中不會直接看到，可�
 3. 在 vim 中輸入`:BundleInstall`安裝 bundle
 
 ```
-安裝 git 的方法可以參考[這裡（請點）](https://git-scm.com/book/zh-tw/v1/開始-安裝Git)
-[-> 原本的網址 (高哥的 github)](https://github.com/ricky155030/configuration/blob/master/.vimrc)
+安裝 git 的方法可以參考 git的官方 : https://git-scm.com/book/zh-tw/v1/開始-安裝Git
 ```
 ```
 補充：遇到 ctags 無法找到 path 的狀況
