@@ -24,8 +24,13 @@
 
 ####[ 法二 ]
 1. 下載整個資料夾 VIM-setting （進到資料夾後右下角可以點選下載）
+   或是 `git clone https://github.com/WemyJu/VIM-setting.git` 使用git指令下載
 2. 移動檔案到加目錄下 `cd ~`
 3. 複製剛剛的 .vimrc 到加目錄下 `mv [下載的檔案資料夾位置]/VIM-setting/.vimrc .vimrc`
+
+```
+ps 因為.vimrc 是個隱藏檔，所以在資料夾中不會直接看到，可以透過 `ls -la` 查看隱藏檔
+```
 
 
 </br>
@@ -34,6 +39,14 @@
 1. 先裝 git
 2. 裝完進到 vi 會自己裝 vundle
 3. 在 vim 中輸入`:BundleInstall`安裝 bundle
+
+```
+安裝 git 的方法可以參考這裡[（請點）](https://git-scm.com/book/zh-tw/v1/開始-安裝Git)
+```
+```
+補充：遇到 ctags 無法找到 path 的狀況
+      -> 直接用指令安裝好 ctags 就OK了 `sudo apt-get install ctags`
+```
 
 
 </br>
