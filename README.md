@@ -1,7 +1,8 @@
-#高哥強大的.vimrc
+#.vimrc
 
+<!--
 [-> 原本的網址 (高哥的 github)](https://github.com/ricky155030/configuration/blob/master/.vimrc)
-
+-->
 
 
 
