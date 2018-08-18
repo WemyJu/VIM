@@ -1,4 +1,4 @@
-#.vimrc
+# .vimrc
 
 <!--
 [-> 原本的網址 (高哥的 github)](https://github.com/ricky155030/configuration/blob/master/.vimrc)
@@ -10,8 +10,8 @@
 </br>
 </br>
 
-##更改 .vimrc 的方式
-####[ 法一 ]
+## 更改 .vimrc 的方式
+#### [ 法一 ]
 1. 移動到家目錄 `cd ~`
 2. 新增 .vimrc `vim .vimrc`
 3. 將內容複製貼上到 .vimrc 中
@@ -23,7 +23,7 @@
 	貼上之前先在 .vimrc 中使用 :set paste
 ```
 
-####[ 法二 ]
+#### [ 法二 ]
 1. 下載整個資料夾 VIM-setting （進到資料夾後右下角可以點選下載）
    或是 `git clone https://github.com/WemyJu/VIM-setting.git` 使用git指令下載
 2. 移動檔案到加目錄下 `cd ~`
@@ -36,7 +36,9 @@ ps 因為.vimrc 是個隱藏檔，所以在資料夾中不會直接看到，可�
 
 </br>
 </br>
-##安裝套件方式
+
+
+## 安裝套件方式
 1. 先裝 git
 2. 裝完進到 vi 會自己裝 vundle
 3. 在 vim 中輸入`:BundleInstall`安裝 bundle
@@ -52,7 +54,8 @@ ps 因為.vimrc 是個隱藏檔，所以在資料夾中不會直接看到，可�
 
 </br>
 </br>
-##更改主題
+
+## 更改主題
 1. 先到 [vim colors cheme test](https://code.google.com/p/vimcolorschemetest/) 挑選喜歡的主題並下載
 2. 移動到家目錄下並創資料夾 .vim `cd ~ ; mkdir .vim`
 3. 移動到資料夾 .vim 並創資料夾 colors `cd .vim ; mkdir colors`
