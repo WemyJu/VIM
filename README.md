@@ -1,14 +1,8 @@
-# .vimrc
+
 
 <!--
 [-> 原本的網址 (高哥的 github)](https://github.com/ricky155030/configuration/blob/master/.vimrc)
 -->
-
-
-
-</br>
-</br>
-</br>
 
 ## 更改 .vimrc 的方式
 #### [ 法一 ]
