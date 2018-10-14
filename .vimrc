@@ -42,68 +42,68 @@ nnoremap <S-W> gt
 
 " shortcuts for compile
 " execute python file with python2
-autocmd filetype python map <F7> :w<CR>:!python2 %<CR>
+autocmd FileType python map <F7> :w<CR>:!python2 %<CR>
 " execute python file with python3
-autocmd filetype python map <F8> :w<CR>:!python3 %<CR>
+autocmd FileType python map <F8> :w<CR>:!python3 %<CR>
 
 " compile c file
-autocmd filetype c map <F7> :w<CR>:!gcc %<CR>
-autocmd filetype c map <F9> :w<CR>:make<CR>
+autocmd FileType c map <F7> :w<CR>:!gcc %<CR>
+autocmd FileType c map <F9> :w<CR>:make<CR>
 " compile c file and execule
-autocmd filetype c map <F8> :w<CR>:!gcc % && ./a.out<CR>
+autocmd FileType c map <F8> :w<CR>:!gcc % && ./a.out<CR>
 
 " compile c++ file
-autocmd filetype cpp map <F7> :w<CR>:!g++ %<CR>
-autocmd filetype cpp map <F9> :w<CR>:make<CR>
+autocmd FileType cpp map <F7> :w<CR>:!g++ %<CR>
+autocmd FileType cpp map <F9> :w<CR>:make<CR>
 " compile c++ file and execute
-autocmd filetype cpp map <F8> :w<CR>:!g++ % && ./a.out<CR>
+autocmd FileType cpp map <F8> :w<CR>:!g++ % && ./a.out<CR>
 
 
 
 
 
-"autocmd filetype tex map <F8> :set cursorline!<CR><Bar>:echo "Highlight active cursor line: " . strpart("OffOn", 3 * &cursorline, 3)<CR>
+"autocmd FileType tex map <F8> :set cursorline!<CR><Bar>:echo "Highlight active cursor line: " . strpart("OffOn", 3 * &cursorline, 3)<CR>
 " " This is line cursor highlight
 
 
 
 " shortcuts for latex
-"autocmd filetype tex map <silent> <F9> \ll:!echo % \| awk -F "." '{print $1".pdf"}' \| xargs okular <CR>	
-"autocmd filetype tex map <silent> <F9> \ll:!echo % \| awk -F "." '{print $1".pdf"}'<CR>	
-"autocmd filetype tex map <silent> <F10> :set spell! spelllang=en_us <CR><Bar>:syntax spell toplevel<CR><Bar>:echo "Spell check: " . strpart("OffOn", 3 * &spell, 3)<CR>
-"autocmd filetype tex map <F11> :s/^/% /g<CR>
-"autocmd filetype tex map <F12> :s/^% //g<CR>
-"autocmd filetype tex map <F1> ]s
-"autocmd filetype tex map <F2> z=
-"autocmd filetype tex map <F3> zg
+"autocmd FileType tex map <silent> <F9> \ll:!echo % \| awk -F "." '{print $1".pdf"}' \| xargs okular <CR>	
+"autocmd FileType tex map <silent> <F9> \ll:!echo % \| awk -F "." '{print $1".pdf"}'<CR>	
+"autocmd FileType tex map <silent> <F10> :set spell! spelllang=en_us <CR><Bar>:syntax spell toplevel<CR><Bar>:echo "Spell check: " . strpart("OffOn", 3 * &spell, 3)<CR>
+"autocmd FileType tex map <F11> :s/^/% /g<CR>
+"autocmd FileType tex map <F12> :s/^% //g<CR>
+"autocmd FileType tex map <F1> ]s
+"autocmd FileType tex map <F2> z=
+"autocmd FileType tex map <F3> zg
 
 
-"autocmd filetype c map <F7> :s/^/\/\//g<CR>
-"autocmd filetype c map <F8> :s/^\/\///g<CR>
-"autocmd filetype c map <F9> :w<CR>:!gcc -lm % && ./a.out<CR>
-"autocmd filetype cpp map <F9> :w<CR>:!g++ % && ./a.out<CR>
-"autocmd filetype cpp map <F9> :w<CR>:make clean<CR>:make<CR>:!./a.out<CR>
-"autocmd filetype cpp map <F7> :s/^/\/\//g<CR>
-"autocmd filetype cpp map <F8> :s/^\/\///g<CR>
-"autocmd filetype html map <F7> :s/^\(.*\)$/<!--\1-->/g<CR> 
-"autocmd filetype html map <F8> :s/^<!--\(.*\)-->$/\1/g<CR>
-"autocmd filetype sh map <F7> :s/^/# /g<CR>
-"autocmd filetype sh map <F8> :s/^# //g<CR>
-"autocmd filetype perl map <F7> :s/^/# /g<CR>
-"autocmd filetype perl map <F8> :s/^# //g<CR>
-"autocmd filetype perl map <F9> :w<CR>:!perl %<CR>
+"autocmd FileType c map <F7> :s/^/\/\//g<CR>
+"autocmd FileType c map <F8> :s/^\/\///g<CR>
+"autocmd FileType c map <F9> :w<CR>:!gcc -lm % && ./a.out<CR>
+"autocmd FileType cpp map <F9> :w<CR>:!g++ % && ./a.out<CR>
+"autocmd FileType cpp map <F9> :w<CR>:make clean<CR>:make<CR>:!./a.out<CR>
+"autocmd FileType cpp map <F7> :s/^/\/\//g<CR>
+"autocmd FileType cpp map <F8> :s/^\/\///g<CR>
+"autocmd FileType html map <F7> :s/^\(.*\)$/<!--\1-->/g<CR> 
+"autocmd FileType html map <F8> :s/^<!--\(.*\)-->$/\1/g<CR>
+"autocmd FileType sh map <F7> :s/^/# /g<CR>
+"autocmd FileType sh map <F8> :s/^# //g<CR>
+"autocmd FileType perl map <F7> :s/^/# /g<CR>
+"autocmd FileType perl map <F8> :s/^# //g<CR>
+"autocmd FileType perl map <F9> :w<CR>:!perl %<CR>
 
 " [WEB] Zencoding filetype enable
-autocmd filetype html,css,php EmmetInstall
+autocmd FileType html,css,php EmmetInstall
 let g:user_emmet_install_global = 0
 
 " [WEB] let php using html indent
-autocmd filetype php :set filetype=html
+autocmd FileType php :set FileType=html
 
 " completion
 let g:SuperTabDefaultCompletionType = "context"
 let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
-" autocmd Filetype python set complete+=pythoncomplete#Complete
+" autocmd FileType python set complete+=pythoncomplete#Complete
 autocmd FileType c setl omnifunc=ccomplete#Complete
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType java set omnifunc=javacomplete#Complete
